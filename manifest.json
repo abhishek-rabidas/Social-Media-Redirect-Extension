@@ -1,5 +1,5 @@
 {
-    "manifest_varsion": 1,
+    "manifest_version": 2,
     "name": "Social Media Redirect Extension",
     "description": "This browser extension helps in storing social media links and redirecting you to them easily",
     "version": "1.0.0",

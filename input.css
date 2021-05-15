@@ -1,0 +1,44 @@
+#links-container {
+    padding: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.link i {
+    font-size: 2rem;
+    color: black;
+}
+
+.link {
+    min-width: 60px;
+}
+
+.links {
+    display: flex;
+    padding: 20px;
+}
+
+input {
+    margin-left: 20px;
+    width: 300px;
+}
+
+#setup-btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    min-width: 100px;
+}
+
+#action-tab {
+    text-align: center;
+}

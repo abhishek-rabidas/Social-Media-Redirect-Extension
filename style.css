@@ -1,0 +1,35 @@
+#top-element {
+    text-align: center;
+}
+
+h4 {
+    margin-top: -15px;
+}
+
+#links-container {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link i {
+    font-size: 2rem;
+    color: black;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 10px;
+    background-color: black;
+    border: 0;
+    border-radius: 20px;
+}
+
+#btn a {
+    color: white;
+    text-decoration: none;
+}
+
+#action-tab {
+    text-align: center;
+}

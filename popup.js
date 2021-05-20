@@ -18,3 +18,7 @@ window.onload = function() {
         document.getElementById('linkedin-link').setAttribute('href', data.linkedin);
     });
 }
+
+document.getElementById('btn').addEventListener('click', function() {
+    chrome.windows.create({ url: "./input.html", type: "panel" });
+});

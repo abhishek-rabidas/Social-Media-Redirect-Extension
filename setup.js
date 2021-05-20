@@ -1,4 +1,5 @@
 document.getElementById('setup-btn').addEventListener('click', function() {
+
     var git = document.getElementById('github').value;
     chrome.storage.sync.set({ "git": git });
 

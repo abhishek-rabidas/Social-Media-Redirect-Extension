@@ -3,6 +3,7 @@ document.getElementById('setup-btn').addEventListener('click', function() {
     var git = document.getElementById('github').value;
     chrome.storage.sync.set({ "git": git });
 
+
     var stack = document.getElementById('stack').value;
     chrome.storage.sync.set({ "stack": stack });
 

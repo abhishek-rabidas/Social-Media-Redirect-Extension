@@ -21,4 +21,5 @@ window.onload = function() {
 
 document.getElementById('btn').addEventListener('click', function() {
     chrome.windows.create({ url: "./input.html", type: "panel" });
+    window.close();
 });

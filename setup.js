@@ -20,4 +20,6 @@ document.getElementById('setup-btn').addEventListener('click', function() {
     chrome.storage.sync.set({ "linkedin": linkedin });
 
     alert("Uploaded");
+    window.close();
+
 });

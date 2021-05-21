@@ -5,9 +5,9 @@ window.onload = function() {
     chrome.storage.sync.get('stack', function(data) {
         document.getElementById('stack-link').setAttribute('href', data.stack);
     });
-    chrome.storage.sync.get('gplus', function(data) {
-        document.getElementById('g-link').setAttribute('href', data.gplus);
-    });
+    /*   chrome.storage.sync.get('gplus', function(data) {
+          document.getElementById('g-link').setAttribute('href', data.gplus);
+      }); */
     chrome.storage.sync.get('fb', function(data) {
         document.getElementById('fb-link').setAttribute('href', data.fb);
     });
